@@ -35,6 +35,13 @@ test.describe("Home page with no auth", () => {
     await expect(productGrid.getByRole("link")).toHaveCount(1);
     await expect(page.getByAltText("Thor Hammer")).toBeVisible();
   });
+
+  test.only("open_some_link", async ({ page }) => {
+    const pageUnderTest = process.env.FORTRADE_LP
+      ? process.env.FORTRADE_LP
+      : "https://www.n12.co.il/";
+    await page.goto(pageUnderTest);
+  });
 });
 
 test.describe("Home page customer 01 auth", () => {
