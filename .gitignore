@@ -152,3 +152,12 @@ npm-debug.log
 # Playwright
 /playwright/.auth/
 >>>>>>> d1cfe1a (Create Playwright repo)
+.DS_Store
+node_modules
+.tmp
+npm-debug.log
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.auth/
