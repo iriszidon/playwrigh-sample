@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -137,3 +138,17 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+=======
+.DS_Store
+node_modules
+.tmp
+npm-debug.log
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.auth/
+
+# Playwright
+/playwright/.auth/
+>>>>>>> d1cfe1a (Create Playwright repo)
